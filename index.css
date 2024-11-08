@@ -377,6 +377,7 @@ footer div {
 footer div ul {
     list-style: none;
     text-align: center;
+    color: var(--color-negre-gris);
 }
 
 footer div ul li a:hover {
