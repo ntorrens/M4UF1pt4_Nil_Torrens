@@ -1,0 +1,384 @@
+/*Generals*/
+
+:root {
+    --color-gris: #212121;
+    --color-negre: #131313;
+    --color-negre-gris: #484846;
+    --color-blanc: #ffffff;
+    --color-vermell: #da3d42;
+    --color-blau: #0015ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:grid;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+header h1 {
+    color: var(--color-vermell);
+    font-size: 50px;
+}
+
+section h1 {
+    color: var(--color-negre-gris);
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+hr {
+    height: 10px;
+    background: #e1dede;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+/* Barra de navegació */
+
+nav {
+    padding: 15px 0px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    max-width: 900px;  
+    margin-bottom: 20px;
+    background-color: var(--color-blanc);
+    background-image: linear-gradient(to bottom, #f9f9f9, #d5d5d5);
+    background-image: linear-gradient();
+    border-radius: 6px;
+    border: 1px solid #aaaaaa;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    text-align: center;
+    margin: 0 15px;
+    color: #29000d;
+    text-decoration: none;
+    padding: 20px 6px
+}
+
+nav li a:hover {
+    color: var(--color-vermell);
+    text-decoration: underline  ; 
+}
+
+/* Contenedor principal */
+.contenidor {
+    max-width: 900px;
+    background-color: var(--color-blanc);
+    border-top: 8px solid var(--color-vermell);
+    margin-bottom: 20px;
+}
+
+/* Primera Secció */
+
+.primera-seccio img {
+    width:100%;
+}
+
+.primera-seccio article {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+    background-color: var(--color-blanc);
+    background-image: linear-gradient(to bottom, #e7e7e7, #f9f9f9);
+    background-image: linear-gradient();
+    padding: 20px 20px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+.primera-seccio article h1 {
+    color: var(--color-vermell);
+    margin-bottom: 10px;
+}
+
+.primera-may-parker {
+    text-decoration: none;
+    color: var(--color-vermell);
+}
+
+.primera-may-parker:hover {
+    text-decoration: underline;
+}
+
+/*Segona Secció*/
+
+.article-sinopsi { 
+    width: 65%;
+    display: inline-block;
+    padding-right: 20px;
+}
+.segona-seccio aside{
+    width: 35%;
+    float: right;
+  }
+
+.segona-seccio aside table {
+    width: 100%;
+}
+
+.segona-seccio aside table th {
+    padding: 10px;
+    color: var(--color-blanc);
+    background: var(--color-vermell);
+}
+
+.segona-seccio aside table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: 1px solid #aaaaaa;
+    padding: 10px;
+}
+
+.taula-imatge {
+    padding: 0;
+}
+
+.segona-seccio aside img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#dades-generals {
+    width: 50%;
+    margin-top: 20px;
+}
+
+#dades-generals th {
+    padding: 8px;
+    color: var(--color-blanc);
+    background: var(--color-vermell);
+}
+
+#dades-generals, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: 1px solid #aaaaaa;
+    padding: 6px;
+}
+
+.primera-columna {
+    font-weight: bold;
+    font-size: 16px;
+    width: 120px;
+    background: #ebc6c7;
+}
+
+/* Tercera Secció */
+
+.tercera-seccio article p {
+    color: var(--color-negre-gris);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tercera-seccio article {
+    margin-top: 20px;
+    width: 64%;
+    height: 345px;
+    display: inline-block;
+}
+
+.tercera-seccio aside {
+    margin-top: 20px;
+    width: 29%;
+    height: 345px;
+    float: right;
+}
+
+.tercera-seccio aside img {
+    width: 100%;
+    height: 47%;
+}
+
+/* Quarta Secció */
+
+#personatges-separats {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.personatges-1 {
+    width: 33%;
+    display: inline-block;
+    list-style-type: circle;
+}
+
+.quarta-seccio a {
+    text-decoration: none;
+    color: var(--color-negre-gris);
+}
+
+.quarta-seccio a:hover {
+    text-decoration: underline;
+    color: var(--color-blau);
+}
+
+.personatges-2 {
+    width: 33%;
+    display: inline-block;
+    list-style-type: circle;
+}
+.personatges-3 {
+    width: 33%;
+    float: right;
+    list-style-type: circle;
+}
+
+.carta-fila {
+    margin-top: 20px;
+    width: 48.9%;
+    height: 236px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: 1px solid #aaaaaa;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom, #e7e7e7, #f9f9f9);
+    background-image: linear-gradient();
+    display: inline-block;
+}
+
+.carta-1 {
+    width: 41%;
+    display: inline-block;
+    height: 310px;
+    padding: 10px;
+}
+
+.carta-1 img {
+    width: 150px;
+    height: 215px;
+    border-radius: 3px;
+}
+
+.carta-2 {
+    float: right;
+    width: 59%;
+    height: 310px;
+    padding: 10px;
+}
+
+.carta-2 h3 {
+    margin-top: 20px;
+    color: #8e4141;
+}
+
+/* Cinquena Secció */
+
+.cinquena-seccio summary {
+    margin-top: 5px;
+    font-size:larger;
+    cursor: pointer;
+}
+
+.cinquena-seccio summary:hover {
+    color: var(--color-vermell);
+    text-decoration: underline;
+}
+
+.taula-cinemes {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.taula-cinemes th {
+    padding: 8px;
+    color: var(--color-blanc);
+    background: var(--color-vermell);
+}
+
+.taula-cinemes, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: 1px solid #aaaaaa;
+    padding: 6px;
+}
+
+/* Sisena Secció */
+
+form {
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid #aaaaaa;
+    background-color: var(--color-blanc);
+    background-image: linear-gradient(to bottom, #e7e7e7, #f9f9f9);
+    background-image: linear-gradient();
+    padding: 20px 20px;
+}
+
+form label {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+form input, select, textarea {
+    margin-top: 5px;
+    height: 30px;
+    width: 30%;
+    border: none;
+    border-bottom: 3px solid var(--color-vermell);
+    border-left: 3px solid var(--color-vermell);
+    border-top: 3px solid #c3c2c2;
+    border-right: 3px solid #c3c2c2;
+    border-bottom-left-radius: 6px;
+}
+
+form textarea {
+    height: 100px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.boto {
+    background-color: var(--color-blanc);
+    background-image: linear-gradient();
+    border-radius: 6px;
+    border: 1px solid #aaaaaa;
+    margin-top: 10px;
+}
+
+.boto:hover {
+    border: 1px solid var(--color-vermell);
+    color: var(--color-vermell);
+}
+
+/* Setena Secció */
+
+footer {
+    padding-left: 26%;
+    margin-top: 20px;
+}
+
+footer div {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+footer div ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer div ul li a:hover {
+    color: var(--color-vermell);
+}
